@@ -1,0 +1,6 @@
+<apex:page controller="NavigationExample" sidebar="false">
+<apex:form >
+<apex:commandButton Value="Click Me" action="{!Savemethod}"/>
+</apex:form>
+
+  </apex:page>
