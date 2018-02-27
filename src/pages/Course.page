@@ -1,0 +1,9 @@
+<apex:page standardController="Course__c" sidebar="false">
+<apex:pageMessages />
+<apex:form >
+Enter Course Name<apex:inputField value="{!Course__c.Name}"/>
+<br></br><br></br>
+Enter Course Desc<apex:inputField value="{!Course__c.Description__c}"/>
+<apex:commandButton value="ClickSave" action="{!save}"/>
+</apex:form>
+</apex:page>
