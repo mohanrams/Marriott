@@ -7,5 +7,6 @@ public class MySampleApexClass_Devops {//Class definition and body
       //do some calculation
       myValue = myValue+10;
       return myValue;
+      //comment
    }
 }
